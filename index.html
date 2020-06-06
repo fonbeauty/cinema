@@ -2,7 +2,9 @@
 <html>
 
 <head>
-
+    <title>Первый кинотеатр в иннополисе</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -12,7 +14,7 @@
             <div>
                 <a href="http://university.innopolis.ru/" target="_blank" title="Университет Иннополис">
                     <img src="images/logo.png" alt="Университет Иннополис">
-                </a> 
+                </a>
             </div>
             <div>
                 ЗАКАЗАТЬ БИЛЕТ ПРИЕМУЩЕСТВА ФИЛЬМЫ КОНТАКТЫ
@@ -81,13 +83,43 @@
     </div>
 
     <div>
-        <div>
-            <h2>Выберите фильм</h2>
-            <p>Начало сеанса Название фильма Жанр</p>
-            <p>10:00 Человек-паук фантастика, боевик, приключения</p>
-            <p>12:00 Собачья жизнь 2 фэнтези, драма, комедия</p>
-            <p>14:00 История игрушек 4 мультфильм, фэнтези, комедия</p>
-            <p>16:00 Люди в черном: Интернэшнл фантастика, боевик, комедия</p>
+        <div class="movie-list">
+            <h2 class="movie-list__header">
+                Выберите фильм
+            </h2>
+            <div class="container">
+                <table class="movie-list__table">
+                    <thead>
+                        <tr>
+                            <th>Начало сеанса</th>
+                            <th>Название фильма</th>
+                            <th>Жанр</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10:00</td>
+                            <td>Человек-паук</td>
+                            <td>фантастика, боевик, приключения</td>
+                        </tr>
+                        <tr>
+                            <td>12:00</td>
+                            <td>Собачья жизнь 2</td>
+                            <td>фэнтези, драма, комедия</td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>История игрушек 4</td>
+                            <td>мультфильм, фэнтези, комедия</td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>Люди в черном: Интернэшнл</td>
+                            <td>фантастика, боевик, комедия</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eum facere obcaecati quam rem repellendus
@@ -137,7 +169,7 @@
         </p>
         <div>
             Человек-паук
-            <a href="http://kinopoisk.ru/" target="_blank" title="Кинопоиск">Человек-паук</a> 
+            <a href="http://kinopoisk.ru/" target="_blank" title="Кинопоиск">Человек-паук</a>
 
             More about selling in the Envato Marketplaces
 
