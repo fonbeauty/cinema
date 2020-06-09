@@ -10,6 +10,18 @@
     font-weight: 700;    
 }
 
+@font-face{
+    font: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face{
+    font: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: 200;
+}
+
 .movie-list
 {
     padding: 100px 0;
@@ -30,6 +42,55 @@
     margin: 0 auto;
 }
 
+p
+{
+    font-size: 14px;
+    font-weight: 200;
+    color: #242424;
+}
+
+.screen02__text2
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: #252525;
+}
+
+.screen02__text3
+{
+    font-size: 35px;
+    font-weight: 900;
+    color: #252525;
+}
+
+.screen02__row
+{
+    overflow: hidden;
+}
+
+.screen02__column
+{
+    float: left;;
+    width: 33.33%;
+}
+
+.screen02__image-wrap
+{
+    height: 211px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.screen02__image-wrap img
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 .movie-list__table
 {
     width: 100%;
@@ -43,8 +104,28 @@
     font-size: 30px;
     font-weight: 700;
     color: #fff;
-    background: #a3cc40;
-    padding: 19px 0;
+    background: #a3cc40; 
+    padding: 19px 0 19px 19px;
+    text-align: left;
 }
 
-  
+.movie-list__table td
+{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 20px 0 20px 20px;
+}
+
+.movie-list__table tr:nth-child(2n+1)
+{
+    background: #373737;
+}
+
+.movie-list__table tr:nth-child(2n)
+{
+    background: #4b4d4f;
+}
+
+
+
