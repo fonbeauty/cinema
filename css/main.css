@@ -22,19 +22,7 @@
     font-weight: 200;
 }
 
-.movie-list
-{
-    padding: 100px 0;
-}
 
-.movie-list__header
-{
-    font-size: 50px;
-    color: #252525;
-    font-weight: 700;
-    margin: 0 0 79px;
-    text-align: center  ;
-}
 
 .screen01
 {
@@ -93,6 +81,7 @@
 {
     max-width: 1030px;
     margin: 0 auto;
+    padding: 0 18px;
 }
 
 p
@@ -146,6 +135,20 @@ p
     margin: auto;
 }
 
+.movie-list
+{
+    padding: 100px 0;
+}
+
+.movie-list__header
+{
+    font-size: 50px;
+    color: #252525;
+    font-weight: 700;
+    margin: 0 0 79px;
+    text-align: center  ;
+}
+
 .movie-list__table
 {
     width: 100%;
@@ -182,5 +185,38 @@ p
     background: #4b4d4f;
 }
 
+.movie-list__footer
+{
+    margin-top: 40px;
+    text-align: center;
+}
 
+.movie-grid__header
+{
+    text-align: left;
+}
 
+.movie-grid__text2
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: #252525;
+}
+
+.screen05__text3
+{
+    font-size: 35px;
+    font-weight: 900;
+    color: #252525;
+}
+
+.movie-grid__flex
+{
+    display: flex;
+    margin: 0 -18px;
+}
+
+.movie-grid__item
+{
+    padding: 18px;
+}
