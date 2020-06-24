@@ -1,35 +1,50 @@
 @font-face{
+    font-family: sans-serif;
+    font: 'Roboto';
+    src: url('../fonts/Roboto-Thin.ttf');
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: sans-serif;
+    font: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: sans-serif;
     font: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;    
 }
 
 @font-face{
+    font-family: sans-serif;
     font: 'Roboto';
     src: url('../fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;    
 }
 
 @font-face{
+    font-family: sans-serif;
     font: 'Roboto';
     src: url('../fonts/Roboto-Black.ttf');
     font-weight: 900;
 }
 
-@font-face{
-    font: 'Roboto';
-    src: url('../fonts/Roboto-Light.ttf');
-    font-weight: 200;
-}
+
 
 
 
 .screen01
 {
     background: url(../images/top_bg.jpg) no-repeat top center / cover;
-    height: 50vh;
+    /* height: 50vh; */
     position: relative;
     overflow: hidden;
+    padding-top: 53px;
+    padding-bottom: 366px;
 }
 
 .screen01:after
@@ -43,6 +58,54 @@
     bottom: -80px;
     left: 0;
 
+}
+.logo-nav
+{
+    margin-bottom: 170px;
+}
+
+.logo
+{
+    display: inline-block;
+}
+
+.nav
+{
+    display: inline-block;
+    margin-left: 220px;
+    line-height: 49px;
+}
+
+.nav__item
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav__link
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.descriptors
+{
+    text-align: center;
+    color: #fff;
+}
+
+.descriptors__main
+{
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 18px;
+}
+
+.descriptors__bottom
+{
+    font-size: 50px;
+    font-weight: 100;
 }
 
 .screen02__pluses
@@ -64,7 +127,7 @@
     background: #fff;
     box-shadow: 0px 1px 2px 0px rgba(35, 31, 32, 0.65);
     position: absolute;
-    top: -120px;
+    top: -240px;
     right: 0;
 }
 
@@ -81,7 +144,7 @@
 {
     max-width: 1030px;
     margin: 0 auto;
-    padding: 0 18px;
+    /* padding: 0 18px; */
 }
 
 p
@@ -201,6 +264,50 @@ p
     font-size: 50px;
     font-weight: 700;
     color: #252525;
+}
+
+.block-gift
+{
+    padding-top: 130px;
+    padding-bottom: 173px;
+    background-image: url('../images/b4_bg.jpg');
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.gift-image
+{
+    position: absolute;
+    top: -50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.gift-conditions
+{
+    margin-left: 350px;
+    color: #fff;
+    text-align: right;
+}
+
+.gift-conditions__head
+{
+    margin-bottom: 53px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.gift-conditions__caption
+{
+    margin-bottom: 34px;
+}
+
+.gift-conditions__caption p
+{
+    color: #fff;
 }
 
 .screen05__text3
