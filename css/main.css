@@ -144,7 +144,6 @@
 {
     max-width: 1030px;
     margin: 0 auto;
-    /* padding: 0 18px; */
 }
 
 p
@@ -317,16 +316,25 @@ p
     color: #252525;
 }
 
+.grid-container
+{
+    max-width: 1006px;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+    padding: 0 18px;
+}
+
 .movie-grid__flex
 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
 }
 
 .movie-grid__item
 {
-    padding: 18px;
+    
 }
 
 .movie-grid__inner1
